@@ -1,0 +1,22 @@
+import.io.*;
+public class Car {
+    String model;
+    String color;
+    int year;
+    public Car(String model, String color, int year) {
+        this.model = model;
+        this.color = color;
+        this.year = year;
+    }
+    public void displayDetails() {
+        System.out.println("Model: " + model);
+        System.out.println("Color: " + color);
+        System.out.println("Year: " + year);
+    }
+    public void start() {
+        System.out.println(model + " is starting.");
+    }
+    public void stop() {
+        System.out.println(model + " is stopping.");
+    }
+}
