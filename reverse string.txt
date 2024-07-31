@@ -1,0 +1,12 @@
+import java.io.*; 
+public class reverse{
+    public static void main(String[] arg) {
+String s1 = "TEMPLE";
+String s2 = "elmpet";
+int len = s1.length();
+for(int i = len-1;i>=0;i--){
+    s2 = s2+s1.charAt(i);
+}
+System.out.println("Reversed string:  "+s2) ;
+}
+}

@@ -1,0 +1,12 @@
+import java.io.*; 
+public class ValidString{
+    public static void main(String[] arg) {
+String s1 = "Saveetha@789";
+String s2 = "Saveetha@123";
+if(s1==s2){
+    System.out.println("String is Valid.");
+}else{
+    System.out.println("String is Invalid.");
+}
+}
+}
