@@ -1,0 +1,21 @@
+import java.io.*;
+public class maxNumber {
+    public static void main(String[] args) {
+        System.out.println("Enter the number to be printed: "); 
+        int x=1; 
+        System.out.println("Max Number of time printed: "); 
+        int n=3; 
+        for(int i=1;i<=n;i++) { 
+            for(int j=1;j<=i;j++) {
+                System.out.print(x);
+            } 
+            System.out.println(); 
+        } 
+        for(int i=n-1;i>=1;i--) { 
+    for(int j=1;j<=i;j++)  {
+        System.out.print(x);
+    } 
+    System.out.println(); 
+} 
+}
+}
