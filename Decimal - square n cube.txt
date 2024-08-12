@@ -1,0 +1,8 @@
+import java.io.*;
+class Decimal{
+    public static void main(String[] args) {
+float n=0.6f; 
+System.out.print("square: "+(n*n)); 
+System.out.print("\ncube: "+(n*n*n));
+    }
+}

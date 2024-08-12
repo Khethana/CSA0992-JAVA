@@ -1,0 +1,17 @@
+import java.io.*;
+class Factors{
+    public static void main(String[] args) {
+       int n=7; 
+int factors=0; 
+ for(int i=1;i<n;i++) { 
+    if(n%i==0) 
+        factors=factors+i; 
+} 
+if(n==factors) {
+    System.out.print("It is a perfect number."); 
+    } 
+    else{
+        System.out.println("It is not a perfect number.");
+    }
+    }
+}
